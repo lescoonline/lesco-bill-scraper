@@ -39,3 +39,5 @@ app.get('/get-bill', async (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log("LESCO bill API running"));
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log("Server running on port " + port));
